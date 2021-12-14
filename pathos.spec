@@ -4,7 +4,7 @@
 #
 Name     : pathos
 Version  : 0.2.8
-Release  : 1
+Release  : 2
 URL      : https://github.com/uqfoundation/pathos/releases/download/pathos-0.2.8/pathos-0.2.8.tar.gz
 Source0  : https://github.com/uqfoundation/pathos/releases/download/pathos-0.2.8/pathos-0.2.8.tar.gz
 Summary  : parallel graph management and execution in heterogeneous computing
