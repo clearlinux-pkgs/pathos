@@ -4,7 +4,7 @@
 #
 Name     : pathos
 Version  : 0.2.8
-Release  : 2
+Release  : 3
 URL      : https://github.com/uqfoundation/pathos/releases/download/pathos-0.2.8/pathos-0.2.8.tar.gz
 Source0  : https://github.com/uqfoundation/pathos/releases/download/pathos-0.2.8/pathos-0.2.8.tar.gz
 Summary  : parallel graph management and execution in heterogeneous computing
@@ -15,15 +15,15 @@ Requires: pathos-license = %{version}-%{release}
 Requires: pathos-python = %{version}-%{release}
 Requires: pathos-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
 BuildRequires : pypi(dill)
 BuildRequires : pypi(multiprocess)
 BuildRequires : pypi(pox)
 BuildRequires : pypi(ppft)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 --------------------------------------------------------------------------
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1638309899
+export SOURCE_DATE_EPOCH=1644189321
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
