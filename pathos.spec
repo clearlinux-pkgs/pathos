@@ -7,7 +7,7 @@
 #
 Name     : pathos
 Version  : 0.3.3
-Release  : 15
+Release  : 16
 URL      : https://github.com/uqfoundation/pathos/releases/download/0.3.3/pathos-0.3.3.tar.gz
 Source0  : https://github.com/uqfoundation/pathos/releases/download/0.3.3/pathos-0.3.3.tar.gz
 Summary  : parallel graph management and execution in heterogeneous computing
